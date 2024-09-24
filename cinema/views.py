@@ -3,7 +3,13 @@ from typing import Type
 from django.db.models import QuerySet
 from rest_framework import viewsets, serializers
 
-from cinema.models import Actor, Movie, MovieSession, Genre, CinemaHall
+from cinema.models import (
+    Actor,
+    Movie,
+    MovieSession,
+    Genre,
+    CinemaHall
+)
 from cinema.serializers import (
     ActorSerializer,
     ActorListSerializer,
